@@ -1,0 +1,32 @@
+img{
+    justify-content: flex-end;
+    width: 200px;
+}
+
+body{
+    /* background-image: url("asset/BG-Index-Guts.jpg"); */
+    background-position: center;
+    background-position-y:top;
+}
+
+header{
+    color: #ee2a24;
+    overflow: hidden;
+    
+}
+
+.ill{
+    display: flex;
+    justify-content: flex-end;
+    overflow:hidden;
+}
+
+.ctn-scroll{
+    position: relative;
+    flex-direction: column;
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 80vw;
+    height: 60vh;
+    overflow: auto;
+}
