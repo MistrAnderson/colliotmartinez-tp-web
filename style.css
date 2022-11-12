@@ -1,32 +1,58 @@
-img{
-    justify-content: flex-end;
-    width: 200px;
-}
-
-body{
-    /* background-image: url("asset/BG-Index-Guts.jpg"); */
-    background-position: center;
-    background-position-y:top;
-}
-
-header{
-    color: #ee2a24;
-    overflow: hidden;
+header {
+    background-color: rgba(255, 255, 128, .3);
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    font-size: 50px;
     
 }
 
-.ill{
-    display: flex;
-    justify-content: flex-end;
-    overflow:hidden;
+body {
+    background-image: url("asset/BG-Index-Guts.jpg");
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+    background-size: cover;
+
+    margin: 0;
+    overflow: hidden;
+
+    color: azure;
+  }
+
+  #content {
+    padding: 20px;
+    box-sizing: border-box;
+
+    overflow: auto;
+    position: absolute;
+    width: 100%;
+    top: 100px;
+    bottom: 0;
+  }
+  #content::-webkit-scrollbar {
+    display: none;
 }
 
-.ctn-scroll{
-    position: relative;
-    flex-direction: column;
-    margin-left: 5%;
-    margin-right: 5%;
-    width: 80vw;
-    height: 60vh;
-    overflow: auto;
+div.left {
+    float: left;
+    width: 45%;
+    height: 100%;
+    bottom: 0;
+    background-color: rgba(128, 255, 223, 0.3);
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    font-size: 40px;
 }
+
+div.right {
+    float: right;
+    width: 45%;
+    background-color: rgba(130, 128, 255, 0.3);
+    padding: 20px;
+    font-size: 40px;
+}
+
