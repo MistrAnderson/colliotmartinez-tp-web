@@ -1,6 +1,6 @@
 header {
-    background-color: rgba(231, 77, 72, 0.3);
-    color: #fff;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: rgb(190, 52, 52);
     text-align: center;
     padding: 20px;
     font-size: 50px;
@@ -8,7 +8,7 @@ header {
 }
 
 body {
-    background-image: url("asset/BG-Index-Guts.jpg");
+    background-image: url("asset/ILL-Skeleton.png");
     
     background-position: center;
     background-repeat: no-repeat;
@@ -18,6 +18,8 @@ body {
 
     margin: 0;
     overflow: hidden;
+
+    color: azure;
   }
 
   #content {
@@ -30,8 +32,7 @@ body {
     top: 100px;
     bottom: 0;
   }
-
-#content::-webkit-scrollbar {
+  #content::-webkit-scrollbar {
     display: none;
 }
 
@@ -42,7 +43,7 @@ div.left {
     color: #fff;
     text-align: left ;
     padding: 20px;
-    font-size: 20px;
+    font-size: 40px;
     border-radius: 10px 10px 10px 10px;
 }
 
@@ -51,12 +52,7 @@ div.right {
     width: 45%;
     background-color: rgba(97, 97, 97, 0.4);
     padding: 20px;
-    border-radius: 10px 10px 10px 10px;
-}
-
-div.right img {
-  display: block;
-  margin: 0 auto;
+    border-radius: 30px 30px 30px 30px;
 }
 
 img {
@@ -64,23 +60,14 @@ img {
 }
 
 button {
-  font-size: 20px;
-  color:rgb(231, 77, 72);
-  background-color: rgba(0, 0, 0, 0.3);
-}
-
-button:hover {
-  color:rgb(0, 0, 0);
-  background-color: rgb(231, 77, 72);
-  border-radius: 30px 30px 30px 30px;
-}
-
-
-button.mort:hover {
-  color:rgb(208, 119, 140);
-  font-weight: bold;
-  background-image: url(asset/ILL-Skeleton.jpg);
-  background-size: cover;
-  border-radius: 30px 30px 30px 30px;
-}
+    font-size: 50px;
+    color:rgb(231, 77, 72);
+    background-color: rgba(0, 0, 0, 0.3);
+  }
+  
+  button:hover {
+    color:rgb(0, 0, 0);
+    background-color: rgb(231, 77, 72);
+    border-radius: 10px 10px 10px 10px;
+  }
 
