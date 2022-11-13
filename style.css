@@ -20,6 +20,19 @@ body {
     overflow: hidden;
   }
 
+#eclipse {
+  background-image: url("asset/BG-eclipse.jpg");
+  
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  
+  background-size: cover;
+
+  margin: 0;
+  overflow: hidden;
+}  
+
   #content {
     padding: 20px;
     box-sizing: border-box;
